@@ -1,7 +1,7 @@
 name: CI
 on:
   push:
-    branches: [staging, trying]
+    branches: [staging, trying, ci/macos-arm64-exercise]
 jobs:
   ci:
     name: CI
